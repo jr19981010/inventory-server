@@ -7,7 +7,7 @@ const http = require('http');
 const { Server: SocketIOServer } = require('socket.io');
 
 const corsOptions = {
-    origin: 'https://extraordinary-chimera-b3dc6c.netlify.app',
+    origin: 'https://simple-inventory-system.netlify.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
